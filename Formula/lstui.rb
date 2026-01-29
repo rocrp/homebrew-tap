@@ -1,13 +1,13 @@
 class Lstui < Formula
   desc "Lobsters TUI (stories + nested comments)"
   homepage "https://github.com/rocrp/lstui"
-  version "0.0.2"
+  version "0.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rocrp/lstui/releases/download/v0.0.2/lstui-v0.0.2-macos-arm64.tar.gz"
-      sha256 "08b3e9135302fedbfb02d4e6a7e3c06c9806c2a763d445ff3922c32f6166d065"
+      url "https://github.com/rocrp/lstui/releases/download/v0.0.3/lstui-v0.0.3-macos-arm64.tar.gz"
+      sha256 "afc2f06ff1865858086d22b9c2f8823b0382320ac653bda6b6c594107f9ed58c"
     end
   end
 
