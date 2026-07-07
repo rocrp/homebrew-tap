@@ -1,25 +1,25 @@
 class Zellijls < Formula
   desc "Human-friendly zellij session listing with AI agent status and tasks"
   homepage "https://github.com/rocrp/zellijls"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rocrp/zellijls/releases/download/v0.1.1/zellijls-v0.1.1-darwin-arm64.tar.gz"
-      sha256 "a7adbd4fa5a3c4b073b1d2f254b2c2dec640b509003260b65d7ffc9a94aeb6c5"
+      url "https://github.com/rocrp/zellijls/releases/download/v0.2.0/zellijls-v0.2.0-darwin-arm64.tar.gz"
+      sha256 "b25a34855bc4cb28976427c422d5ce457db99afa4905ffd934d73b804772caca"
     end
 
     on_intel do
-      url "https://github.com/rocrp/zellijls/releases/download/v0.1.1/zellijls-v0.1.1-darwin-amd64.tar.gz"
-      sha256 "f431c88e8a5ae262b24ed890b57d101b3724d7e36c552bea0afffadb8f5a0832"
+      url "https://github.com/rocrp/zellijls/releases/download/v0.2.0/zellijls-v0.2.0-darwin-amd64.tar.gz"
+      sha256 "9c144978c54ba2ec19791d404bf628b0c64907568e001d390b39a4f23eb710a9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/rocrp/zellijls/releases/download/v0.1.1/zellijls-v0.1.1-linux-amd64.tar.gz"
-      sha256 "94a29559c61a3be7462b8ecc89b6307f99ed1bb2abd42f080aa32b24c831fd50"
+      url "https://github.com/rocrp/zellijls/releases/download/v0.2.0/zellijls-v0.2.0-linux-amd64.tar.gz"
+      sha256 "f4f71328a162e8f03295c7713745b3b81da159412c4995110cf868be59563091"
     end
   end
 
