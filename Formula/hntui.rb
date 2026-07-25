@@ -1,25 +1,25 @@
 class Hntui < Formula
   desc "Hacker News TUI with top stories and nested comments"
   homepage "https://github.com/rocrp/hntui"
-  version "0.4.4"
+  version "0.4.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rocrp/hntui/releases/download/v0.4.4/hntui-v0.4.4-darwin-arm64.tar.gz"
-      sha256 "37bdee4f6e3cb755e154e49d0c416fb21ab99b434281f8680d48f6c398bc118c"
+      url "https://github.com/rocrp/hntui/releases/download/v0.4.5/hntui-v0.4.5-darwin-arm64.tar.gz"
+      sha256 "3fb35f9c42f3b09a907e489bed5f048147279c53563b7133c4a8170870a0d2f0"
     end
 
     on_intel do
-      url "https://github.com/rocrp/hntui/releases/download/v0.4.4/hntui-v0.4.4-darwin-amd64.tar.gz"
-      sha256 "00ebae00819a589a3f186c3d6558712c89a3fe2faabcc5725acfec87e6342410"
+      url "https://github.com/rocrp/hntui/releases/download/v0.4.5/hntui-v0.4.5-darwin-amd64.tar.gz"
+      sha256 "796d532be9945f36397b3bf8ea0a49c67c23c96b78f31d59baf226c3ec3eda62"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/rocrp/hntui/releases/download/v0.4.4/hntui-v0.4.4-linux-amd64.tar.gz"
-      sha256 "f24ab4038c603d3345d7e0721e66c014d504de72779f841a0373320b692b0bac"
+      url "https://github.com/rocrp/hntui/releases/download/v0.4.5/hntui-v0.4.5-linux-amd64.tar.gz"
+      sha256 "96c1bcb06ba6771527ef073ef34caee8cdaf8b9ed331140234e8cb60b8108830"
     end
   end
 
