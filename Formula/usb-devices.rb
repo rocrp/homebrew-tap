@@ -1,9 +1,9 @@
 class UsbDevices < Formula
   desc "Identify USB serial devices with names and cached ESP firmware metadata"
   homepage "https://github.com/rocrp/homebrew-tap"
-  url "https://github.com/rocrp/homebrew-tap/releases/download/usb-devices-v0.2.0/usb-devices-v0.2.0-darwin-arm64.tar.gz"
-  version "0.2.0"
-  sha256 "cd069eb8be4967e796364a3646ff602295b4c8e2962733b0debd5549050db043"
+  url "https://github.com/rocrp/homebrew-tap/releases/download/usb-devices-v0.2.1/usb-devices-v0.2.1-darwin-arm64.tar.gz"
+  version "0.2.1"
+  sha256 "66ddfa4efa1b262c4d217e32e6f3b8bd74bb5c3ab7b356f3048c6923cff04e5a"
 
   depends_on arch: :arm64
   depends_on macos: :big_sur
@@ -30,6 +30,7 @@ class UsbDevices < Formula
     assert_equal "usb-devices #{version}", shell_output("#{bin}/usb-devices --version").strip
     assert_match "REBOOTS", shell_output("#{bin}/usb-devices probe --help")
     assert_match "--refresh", shell_output("#{bin}/usb-devices --help")
+    assert_match "--details", shell_output("#{bin}/usb-devices --help")
     assert_path_exists libexec/"usb_devices.py"
     assert_kind_of Array, JSON.parse(shell_output("#{bin}/usb-devices --json"))
   end
