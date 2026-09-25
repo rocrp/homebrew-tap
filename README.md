@@ -31,7 +31,8 @@ IDF, ELF hash, and Flash ID metadata without probing or resetting devices.
 
 `--refresh` refreshes every listed device, including cached ones, then displays
 the results. The helper supports ESP devices; other devices may fail. Refresh
-stops on the first error. `--refresh --json` keeps progress on stderr.
+reports failures after in-flight work finishes. `--refresh --json` keeps
+progress on stderr.
 Cache does not expire or detect reflashing. Human output shows relative cache
 ages and terminal highlighting; `NO_COLOR=1` disables colors. JSON retains exact
 timestamps.
@@ -39,3 +40,31 @@ timestamps.
 If an older install shadows Homebrew, run `$(brew --prefix)/bin/usb-devices`.
 Intel and Linux builds are not provided. Source remains private; release assets
 contain the binary, probe helper, and build provenance.
+
+## qwennote
+
+QwenNote meeting notes CLI and TUI for Apple Silicon Macs (macOS 11+).
+
+```sh
+brew install rocrp/tap/qwennote
+qwennote login
+qwennote notes
+qwennote                 # interactive TUI
+```
+
+Login uses browser OAuth; credentials stay under `~/.config/qwennote/`.
+Some commands edit meeting notes and save local backups before writing.
+
+## wisprflow
+
+Wispr Flow Meetings and Notes CLI and read-only TUI for Apple Silicon Macs
+(macOS 11+).
+
+```sh
+brew install rocrp/tap/wisprflow
+wisprflow login
+wisprflow meetings
+wisprflow               # interactive TUI
+```
+
+Login uses browser OAuth; credentials stay under `~/.config/wisprflow/`.

@@ -1,12 +1,12 @@
 class UsbDevices < Formula
-  desc "Identify USB serial devices with names and cached ESP firmware metadata"
+  desc "Inspect USB and serial devices with cached firmware metadata"
   homepage "https://github.com/rocrp/homebrew-tap"
-  url "https://github.com/rocrp/homebrew-tap/releases/download/usb-devices-v0.2.1/usb-devices-v0.2.1-darwin-arm64.tar.gz"
-  version "0.2.1"
-  sha256 "66ddfa4efa1b262c4d217e32e6f3b8bd74bb5c3ab7b356f3048c6923cff04e5a"
+  url "https://github.com/rocrp/homebrew-tap/releases/download/usb-devices-v0.3.0/usb-devices-v0.3.0-darwin-arm64.tar.gz"
+  version "0.3.0"
+  sha256 "10a6eab5347995d9834d19a5de60c30a7a384ea8d5c2e6d2775144185e42c439"
 
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  depends_on :macos
   depends_on "uv"
 
   def install
