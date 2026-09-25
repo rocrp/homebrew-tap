@@ -1,9 +1,9 @@
 class Qwennote < Formula
   desc "Meeting notes CLI and TUI for QwenNote"
   homepage "https://github.com/rocrp/homebrew-tap"
-  url "https://github.com/rocrp/homebrew-tap/releases/download/qwennote-v0.1.0/qwennote-v0.1.0-darwin-arm64.tar.gz"
-  version "0.1.0"
-  sha256 "665f9630c2c04da60e8366ff7c5fd33128c40c25b57c0fb8b94b66eae4e31275"
+  url "https://github.com/rocrp/homebrew-tap/releases/download/qwennote-v0.2.0/qwennote-v0.2.0-darwin-arm64.tar.gz"
+  version "0.2.0"
+  sha256 "cda3350817f34d3bc8281fc32d22fd8c1ced6b67b18b37089255d8bb1899bb27"
 
   depends_on arch: :arm64
   depends_on :macos
